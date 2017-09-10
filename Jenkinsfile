@@ -13,7 +13,7 @@ containers: [
 ], label: 'cs-go') {
 
     node('cs-go') {
-        echo 'Hello world'
+        echo 'Hello world -- More !'
         sleep 10
         echo "Branch = ${BRANCH_NAME}"
     }
