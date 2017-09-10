@@ -14,7 +14,8 @@ containers: [
 
     node('cs-go') {
         echo 'Hello world'
-        sleep params.SLEEP.toInteger()
+        sleep 10
+        echo "Branch = ${BRANCH_NAME}"
     }
 
 }
